@@ -25,7 +25,7 @@ app.secret_key = 'your_secret_key'
 
 app.config['JWT_SECRET_KEY'] = 'your_jwt_secret_key'
 jwt = JWTManager(app)
-mongo_uri = "mongodb+srv://admin:admin@cluster0.fv8uf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+mongo_uri = "link"
 client = MongoClient(mongo_uri,tlsCAFile=certifi.where())
 db = client['studentdata']
 collection = db['student']
