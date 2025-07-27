@@ -11,7 +11,7 @@ const Admin = require('../models/Admin'); // Import the Admin model from auth.js
 
 
 const SECRET_KEY = process.env.SECRET_KEY;
-const MONGO_URI = "mongodb+srv://admin:admin@cluster0.fv8uf.mongodb.net/studentdata?retryWrites=true&w=majority&appName=Cluster0";  // MongoDB connection URI
+const MONGO_URI = " ";  // MongoDB connection URI
 
 // Connect to MongoDB
 mongoose.connect(MONGO_URI,)
